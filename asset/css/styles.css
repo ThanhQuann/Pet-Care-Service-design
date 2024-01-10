@@ -1230,7 +1230,7 @@ input:has(:checked) {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .Blog__list__title{
