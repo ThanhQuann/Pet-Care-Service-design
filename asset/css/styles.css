@@ -515,7 +515,14 @@ input:has(:checked) {
     display: flex;
     margin-left: -18px;
 }
-
+.Feature__image__method a{
+    width: 14px;
+}
+.Feature__image__method b{
+    width: 14px;
+    height: 12px;
+    align-items: center;
+}
 
 
 .Feature__line{
