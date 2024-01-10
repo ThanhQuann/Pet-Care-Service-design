@@ -1200,16 +1200,7 @@ input:has(:checked) {
     border-radius: 24px;
     background: #FF997E;
  }
-.Blog__list__blog:nth-child(2) .Blog__list__blogsmall::after{
-    display: inline-block;
-    content: "";
-    position: absolute;
-    top:0px;
-    width: 358px;
-    height: 362px;
-    border-radius: 24px;
-    background: #FF997E;
- }
+
  .Blog__list__blog:nth-child(3) .Blog__list__blogsmall::after{
     display: inline-block;
     content: "";
