@@ -971,7 +971,10 @@ input:has(:checked) {
     position: relative;
 }
 
-.Review__list__img::before{
+.Review_list--arrow-left{
+    position: relative;
+}
+.Review_list--arrow-left::before{
     display: inline-block;
     position: absolute;
     content: url(../img/ArrowRight.png);
@@ -979,7 +982,7 @@ input:has(:checked) {
     top:235px;
 
 }
-.Review__list__img::after{
+.Review_list--arrow-left::after{
     display: inline-block;
     position: absolute;
     content: "";

@@ -27,7 +27,6 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./asset/css/reset.css">
-
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +35,7 @@
         rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./asset/css/styles.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -57,7 +56,7 @@
                 </div>
             </div>
             <div class="home">
-                <div class="img__home">
+                <div data-aos="fade-right" class="img__home ">
                     <div class="img__home__union">
                         <img class="dog_big" src="./asset/img/pet1.png" alt="">
                         <img src="./asset/img/Union (1).svg" alt="" class="union">
@@ -82,7 +81,7 @@
                     </div>
 
                 </div>
-                <div class="home__tiltle">
+                <div data-aos="fade-down" class="home__tiltle wow">
                     <h1 class="home__title__h1">
                         Established &
                         Trusted Pet
@@ -103,8 +102,8 @@
     </header>
     <div class="About">
         <div class="container">
-            <div class="About__all">
-                <div class="About__small">
+            <div  class="About__all wow">
+                <div data-aos="fade-up"  class="About__small">
                     <div class="About__note">
                         //About//
                     </div>
@@ -149,7 +148,7 @@
                     </div>
 
                 </div>
-                <div class="About__small">
+                <div data-aos="flip-up" class="About__small">
                     <div class="About__img">
 
                         <div class="About__img__total">
@@ -177,7 +176,7 @@
     <div class="Feature">
         <div class="container">
             <div class="Feature__total">
-                <div class="Feature__img">
+                <div data-aos="flip-left" class="Feature__img">
                     <div class="Feature__image">
                         <img src="./asset/img/pet4.png" alt="" class="Feture__image_twodog">
                         <img src="./asset/img/Vector 10.svg" alt="" class="line__1">
@@ -186,8 +185,8 @@
                         <img src="./asset/img/Vector 11.svg" alt="" class="triangle__1">
                         <img src="./asset/img/Vector 12.svg" alt="" class="triangle__2">
                         <img src="./asset/img/Group 43.png" alt="" class="four_oricle">
-                        <p class="custom a">Em</p>
-                        <p class="custom b">Anh</p>
+                        <p class="custom a">Cave</p>
+                        <p class="custom b">Trình</p>
                     </div>
                 </div>
                 <div class="Feature__title">
@@ -324,7 +323,7 @@
         <div class="container">
             <p class="staff__desc">Pet Care Staff</p>
             <h2 class="staff__title">Meet Our Groomers</h2>
-            <div class="staff__list">
+            <div data-aos="zoom-in-down"  class="staff__list">
                 <!-- Avatar 1 -->
                 <article class="staff__item">
                     <figure class="staff__item--img-wrap">
@@ -431,8 +430,8 @@
     <div class="Review">
         <div class="container">
             <div class="Review__list">
-
-                <div class="Review__list__img">
+                <div class="Review_list--arrow-left"></div>
+                <div  data-aos="fade-up-right" class="Review__list__img">
                     <img src="./asset/img/Our Review.png" alt="" class="Review__img">
                 </div>
                 <div class="Review__item">
@@ -467,16 +466,16 @@
             <div class="Blog__list">
                 <!-- Blog 1   -->
                 <div class="Blog__list__blog">
-                    <div class="Blog__list__blogsmall">
+                    <div data-aos="fade-down-right"class="Blog__list__blogsmall wow">
                         <h3 class="Blog__list__time">21 june 2021</h3>
-                        <a href="#!"><img src="./asset/img/Blog1.png" alt="" class="Blog__list__img"></a>
+                        <a href="#!"><img  src="./asset/img/Blog1.png" alt="" class="Blog__list__img "></a>
                     </div>
                     <h3 class="Blog__list__title">Building Bonds and Trusting Relationships with Your Pets.</h3>
                     <p class="Blog__list__desc">There isn’t a relationship around that can survive without trust. My
                         relationship with my dog Peyton is deep...</p>
                 </div>
                 <!-- Blog 2   -->
-                <div class="Blog__list__blog">
+                <div data-aos="flip-up" class="Blog__list__blog">
                     <div class="Blog__list__blogsmall">
                         <h3 class="Blog__list__time">18 june 2020</h3>
                         <a href="#!"><img src="./asset/img/blog2.png" alt="loi blog" class="Blog__list__img"></a>
@@ -486,7 +485,7 @@
                         adorable pet moment...</p>
                 </div>
                 <!-- Blog 3         -->
-                <div class="Blog__list__blog">
+                <div data-aos="fade-down-left" class="Blog__list__blog">
                     <div class="Blog__list__blogsmall">
                         <h3 class="Blog__list__time">4 june 2019</h3>
                         <a href="#!"><img src="./asset/img/blog3.png" alt="loi bog" class="Blog__list__img"></a>
@@ -533,9 +532,9 @@
                         </a>
                         <a class="footer__item" href="#!">
                             <li class="footer__send__li">Our Team
-                                </li< /a>
+                                </li> </a>
                                 <a class="footer__item" href="#!">
-                            <li class="footer__send__li">Adopt Pet</li< /a>
+                            <li class="footer__send__li">Adopt Pet</li></a>
                     </ul>
                 </div>
 
@@ -553,13 +552,16 @@
                         <a class="footer__item" href="#!">
                             <li class="footer__send__li">Privacy Policy
 
-                                </li< /a>
-                                <a class="footer__item" href="#!">
+                            </li>
+                        </a>
+                        <a class="footer__item" href="#!">
                             <li class="footer__send__li">Terms of Use
-                                </li< /a>
-                                <a class="footer__item" href="#!">
+                            </li>
+                        </a>
+                        <a class="footer__item" href="#!">
                             <li class="footer__send__li">Site Map
-                                </li< /a>
+                            </li>
+                        </a>
                     </ul>
 
                 </div>
@@ -578,9 +580,10 @@
                         <a class="footer__item" href="#!">
                             <li class="footer__send__li">0 (800)-000-00-00
 
-                                </li< /a>
-                                <a class="footer__item" href="#!">
-                            <li class="footer__send__li">New York, NY, Rocawy 7</li< /a>
+                            </li>
+                        </a>
+                        <a class="footer__item" href="#!">
+                            <li class="footer__send__li">New York, NY, Rocawy 7</li></a>
                     </ul>
                 </div>
                 <div class="footer__send__desc-smalla">
@@ -599,7 +602,8 @@
                         <a class="footer__item" href="#!">
                             <li class="footer__send__li">Sunday: We are Closed
 
-                                </li< /a>
+                            </li>
+                        </a>
 
                     </ul>
 
@@ -609,6 +613,17 @@
         </div>
 
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
