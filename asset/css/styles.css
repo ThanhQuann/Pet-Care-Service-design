@@ -1251,7 +1251,7 @@ input:has(:checked) {
     width: 820px;
     height: 516px;
     background: #FFF6ED;
-    padding-left: 360px;
+    padding-left: 170px;
 }
 .footer__logo{
     display: flex;
